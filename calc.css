@@ -1,0 +1,64 @@
+@import url("http://fonts.googleapis.com/css?family=Peppins:300,400,500,600,700,800,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: linear-gradient(#ffeb3b, #e91e63);
+  opacity: 0.7;
+  overflow-x: hidden;
+}
+div {
+  background-color: #fff;
+  opacity: 1;
+  width: 350px;
+  height: 550px;
+  margin: 0 auto;
+  border-radius: 20px;
+  padding: 20px;
+}
+.top {
+  margin-top: 100px;
+  margin-bottom: 110px;
+}
+header {
+  background-color: #000;
+  width: 300px;
+  height: 100px;
+  margin: 50px;
+  border-radius: 20px;
+  margin: 0 auto;
+  font-size: xx-large;
+  color: #fff;
+  text-align: center;
+}
+#screen {
+  padding-top: 20px;
+}
+table {
+  background-color: #000;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 20px;
+}
+td {
+  width: 110px;
+  height: 60px;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 600;
+}
+.order {
+  color: #ff3300;
+}
+.normal {
+  color: #fff;
+}
+td:active {
+  background: linear-gradient(#ffe600, #ff0055);
+  border-radius: 20px;
+}
